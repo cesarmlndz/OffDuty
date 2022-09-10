@@ -1,38 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Inter:wght@400;700&family=Maven+Pro:wght@400;600&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(95, 95, 95);
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  font-family: 'Bungee', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Bungee', sans-serif;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.name-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.number-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
+
+.number {
+  padding-left: 0.5rem;
+  width: 90%;
+  height: 2rem;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.description-title {
+  margin-top: 2rem;
+}
+
+textarea {
+  margin-top: 1rem;
+  width: 90%;
+  height: 5rem;
+  padding: 0rem 0.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.send-alert {
+  margin-top: 1.5rem;
+  width: 7rem;
+  padding: 0.3rem 2rem;
+  border-radius: 30px;
+  font-family: 'Bungee', sans-serif;
+}
+
+.send-alert:hover {
+  background: rgb(181, 179, 179);
+  transition: all 0.3s ease 0s;
+}
+
+iframe {
+  margin-top: 1.5rem;
+  height: 15rem;
+  width: 90%;
+}
+
+
