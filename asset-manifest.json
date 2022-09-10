@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/OffDuty/static/css/main.b2c536f4.css",
+    "main.js": "/OffDuty/static/js/main.f13a62a3.js",
+    "index.html": "/OffDuty/index.html",
+    "static/media/headerLogo.svg": "/OffDuty/static/media/headerLogo.a72604e04c59a2d95697ec8209bd49d1.svg",
+    "main.b2c536f4.css.map": "/OffDuty/static/css/main.b2c536f4.css.map",
+    "main.f13a62a3.js.map": "/OffDuty/static/js/main.f13a62a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2c536f4.css",
+    "static/js/main.f13a62a3.js"
+  ]
+}
