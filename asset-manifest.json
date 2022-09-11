@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/OffDuty/static/css/main.124f9f78.css",
-    "main.js": "/OffDuty/static/js/main.70818e30.js",
+    "main.css": "/OffDuty/static/css/main.7483610d.css",
+    "main.js": "/OffDuty/static/js/main.775a2615.js",
     "index.html": "/OffDuty/index.html",
-    "main.124f9f78.css.map": "/OffDuty/static/css/main.124f9f78.css.map",
-    "main.70818e30.js.map": "/OffDuty/static/js/main.70818e30.js.map"
+    "main.7483610d.css.map": "/OffDuty/static/css/main.7483610d.css.map",
+    "main.775a2615.js.map": "/OffDuty/static/js/main.775a2615.js.map"
   },
   "entrypoints": [
-    "static/css/main.124f9f78.css",
-    "static/js/main.70818e30.js"
+    "static/css/main.7483610d.css",
+    "static/js/main.775a2615.js"
   ]
 }
