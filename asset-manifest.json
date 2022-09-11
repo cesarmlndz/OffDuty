@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/OffDuty/static/css/main.cdc2d2ad.css",
-    "main.js": "/OffDuty/static/js/main.bed31d46.js",
+    "main.css": "/OffDuty/static/css/main.09341ca0.css",
+    "main.js": "/OffDuty/static/js/main.9bd38d03.js",
+    "static/media/thief.png": "/OffDuty/static/media/thief.fb063fd9eed2a6490dba.png",
+    "static/media/healthy-care.png": "/OffDuty/static/media/healthy-care.6ff5be86a352467d7eb1.png",
     "index.html": "/OffDuty/index.html",
-    "main.cdc2d2ad.css.map": "/OffDuty/static/css/main.cdc2d2ad.css.map",
-    "main.bed31d46.js.map": "/OffDuty/static/js/main.bed31d46.js.map"
+    "main.09341ca0.css.map": "/OffDuty/static/css/main.09341ca0.css.map",
+    "main.9bd38d03.js.map": "/OffDuty/static/js/main.9bd38d03.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdc2d2ad.css",
-    "static/js/main.bed31d46.js"
+    "static/css/main.09341ca0.css",
+    "static/js/main.9bd38d03.js"
   ]
 }
