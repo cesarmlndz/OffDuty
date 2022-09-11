@@ -83,7 +83,7 @@ export default function Main() {
             setUserName(e.target.value)
         }}></input>
         <h3 className='number-title'>ENTER PHONE #:</h3>
-        <input className='number' placeholder='(xxx) - xxx - xxx' onChange={(e) => {
+        <input className='number' placeholder='(xxx) - xxx - xxxx' onChange={(e) => {
             setUserPhone(e.target.value)
         }}></input>
         <h3 className='description-title'>WHAT IS GOING ON?</h3>

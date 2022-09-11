@@ -57,12 +57,14 @@ body {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   color: rgb(175, 175, 232);
+
 }
 
 .number {
   padding-left: 0.5rem;
   width: 90%;
-  height: 2rem;
+  height: 3rem;
+  font-size: 1.1rem;
   border-radius: 10px;
   border: 3px solid gray;
 }
@@ -76,12 +78,13 @@ body {
 textarea {
   margin-top: 1rem;
   width: 90%;
-  height: 5rem;
+  height: 6rem;
   padding: 0rem 0.5rem;
   border-radius: 10px;
   padding: 0.5rem;
   border: 3px solid gray;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
 }
 
 .send-alert {
