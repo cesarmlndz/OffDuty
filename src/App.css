@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background: rgb(95, 95, 95);
+  background: rgb(77, 77, 77);
 }
 
 .App {
@@ -41,13 +41,17 @@ body {
   margin-top: 3rem;
 }
 
+.need-help {
+  margin-bottom: 1rem;
+}
+
 .name-title {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .number-title {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -57,10 +61,11 @@ body {
   height: 2rem;
   border-radius: 10px;
   font-family: 'Poppins', sans-serif;
+  border: 2px solid black;
 }
 
 .description-title {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 textarea {
@@ -71,14 +76,17 @@ textarea {
   border-radius: 10px;
   padding: 0.5rem;
   font-family: 'Poppins', sans-serif;
+  border: 2px solid black;
 }
 
 .send-alert {
   margin-top: 1.5rem;
   width: 7rem;
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 1rem;
   border-radius: 30px;
-  font-family: 'Bungee', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  border: 2px solid black;
 }
 
 .send-alert:hover {
@@ -90,6 +98,23 @@ iframe {
   margin-top: 1.5rem;
   height: 15rem;
   width: 90%;
+  border: 2px solid red;
 }
 
+.quick-btn {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.instant-title {
+  margin-bottom: 1rem;
+}
+
+.or {
+  margin-top: 1rem;
+}
 
