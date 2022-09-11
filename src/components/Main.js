@@ -72,22 +72,22 @@ export default function Main() {
  
   return (
     <div className='main-container'>
-        <h2 className='instant-title'>Instant help:</h2>
-        <button className='quick-btn' onClick={sendMedicalAlert}>Medical</button>
-        <button className='quick-btn' onClick={sendRobberyAlert}>Robbery</button>
-        <button className='quick-btn' onClick={sendAccidentAlert}>Accident</button>
-        <button className='quick-btn' onClick={sendDangerAlert}>Danger</button>
+        <h2 className='instant-title'>INSTANT HELP:</h2>
+        <button className='quick-btn' onClick={sendMedicalAlert}>MEDICAL</button>
+        <button className='quick-btn' onClick={sendRobberyAlert}>ROBBERY</button>
+        <button className='quick-btn' onClick={sendAccidentAlert}>ACCIDENT</button>
+        <button className='quick-btn' onClick={sendDangerAlert}>DANGER</button>
         <h2 className='or'>OR</h2>
-        <h3 className='name-title'>Enter Name:</h3>
-        <input className='number' onChange={(e) => {
+        <h3 className='name-title'>ENTER NAME:</h3>
+        <input className='number' placeholder='ex. John Doe' onChange={(e) => {
             setUserName(e.target.value)
         }}></input>
-        <h3 className='number-title'>Enter phone number:</h3>
-        <input className='number' onChange={(e) => {
+        <h3 className='number-title'>ENTER PHONE #:</h3>
+        <input className='number' placeholder='(xxx) - xxx - xxx' onChange={(e) => {
             setUserPhone(e.target.value)
         }}></input>
-        <h3 className='description-title'>What is going on?</h3>
-        <textarea onChange={(e) => {
+        <h3 className='description-title'>WHAT IS GOING ON?</h3>
+        <textarea placeholder='What happened?' onChange={(e) => {
             setDescription(e.target.value);
         }}></textarea>
         <button className='send-alert' onClick={sendMainAlert}>ALERT</button>

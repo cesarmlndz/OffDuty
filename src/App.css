@@ -10,13 +10,15 @@ body {
   display: flex;
   flex-direction: column;
   background: rgb(77, 77, 77);
+  background: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
-  padding: 2rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
 }
 
 .header {
@@ -26,7 +28,6 @@ body {
 }
 
 .header h1 {
-  font-family: 'Bungee', sans-serif;
   color: rgb(255, 255, 255);
 }
 
@@ -34,7 +35,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Bungee', sans-serif;
   font-size: 0.8rem;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -48,11 +48,15 @@ body {
 .name-title {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: rgb(175, 175, 232);
 }
 
 .number-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: rgb(175, 175, 232);
 }
 
 .number {
@@ -60,12 +64,13 @@ body {
   width: 90%;
   height: 2rem;
   border-radius: 10px;
-  font-family: 'Poppins', sans-serif;
-  border: 2px solid black;
+  border: 3px solid gray;
 }
 
 .description-title {
   margin-top: 1rem;
+  font-size: 1.2rem;
+  color: rgb(175, 175, 232);
 }
 
 textarea {
@@ -75,8 +80,8 @@ textarea {
   padding: 0rem 0.5rem;
   border-radius: 10px;
   padding: 0.5rem;
-  font-family: 'Poppins', sans-serif;
-  border: 2px solid black;
+  border: 3px solid gray;
+  font-family: 'Roboto', sans-serif;
 }
 
 .send-alert {
@@ -84,9 +89,8 @@ textarea {
   width: 7rem;
   padding: 0.3rem 1rem;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  border: 2px solid black;
+  border: 3px solid gray;
 }
 
 .send-alert:hover {
@@ -107,14 +111,16 @@ iframe {
   border-radius: 15px;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif;
+  border: 3px solid gray;
 }
 
 .instant-title {
   margin-bottom: 1rem;
+  color: rgb(245, 98, 98);
 }
 
 .or {
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
