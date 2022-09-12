@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios';
+import medical from '../icons/first-aid-kit.png';
+import accident from '../icons/healthy-care.png';
+import thief from '../icons/thief.png';
+import danger from '../icons/danger.png';
 
 export default function Main() {
     const [userName, setUserName] = useState("");
@@ -72,26 +76,46 @@ export default function Main() {
  
   return (
     <div className='main-container'>
-        <h2 className='instant-title'>INSTANT HELP:</h2>
-        <button className='quick-btn' onClick={sendMedicalAlert}>MEDICAL</button>
-        <button className='quick-btn' onClick={sendRobberyAlert}>ROBBERY</button>
-        <button className='quick-btn' onClick={sendAccidentAlert}>ACCIDENT</button>
-        <button className='quick-btn' onClick={sendDangerAlert}>DANGER</button>
-        <h2 className='or'>OR</h2>
-        <h3 className='name-title'>ENTER NAME:</h3>
-        <input className='number' placeholder='ex. John Doe' onChange={(e) => {
-            setUserName(e.target.value)
-        }}></input>
-        <h3 className='number-title'>ENTER PHONE #:</h3>
-        <input className='number' placeholder='(xxx) - xxx - xxxx' onChange={(e) => {
-            setUserPhone(e.target.value)
-        }}></input>
-        <h3 className='description-title'>WHAT IS GOING ON?</h3>
-        <textarea placeholder='What happened?' onChange={(e) => {
-            setDescription(e.target.value);
-        }}></textarea>
-        <button className='send-alert' onClick={sendMainAlert}>ALERT</button>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.851451740415!2d-80.1409627495051!3d25.907253408803125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ad768d6fb88f%3A0x2260d38b31d36d0a!2sKovens%20Conference%20Center!5e0!3m2!1sen!2sus!4v1662844715877!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <h2 className='instant-title'>Select Your <span>Emergency</span></h2>
+        <div className='btn-container'>
+            <div className='top-btns'>
+                <button className='quick-btn' onClick={sendMedicalAlert}>
+                    <img src={medical} />
+                    <h2>Medical</h2>
+                </button>
+                <button className='quick-btn' onClick={sendRobberyAlert}>
+                    <img src={accident}/>
+                    <h2>Accident</h2>
+                </button>
+            </div>
+           <div className='bot-btns'>
+            <button className='quick-btn' onClick={sendAccidentAlert}>
+                    <img src={thief}/>
+                    <h2>Robbery</h2>
+                </button>
+                <button className='quick-btn' onClick={sendDangerAlert}>
+                    <img src={danger}/>
+                    <h2>Danger</h2>
+                </button>
+           </div>
+        </div>
+       <div className='p-container'>
+            <p>Is the Emergency not too urgent? Have time to fill out some details? Provide your name, phone number, and a description of what occured. </p>
+       </div>
+        <div className='bottom-half'>
+            <h3>Additional Details</h3>
+            <input className='number' placeholder='Name' onChange={(e) => {
+                setUserName(e.target.value)
+            }}></input>
+            <input className='number' placeholder='Phone #' onChange={(e) => {
+                setUserPhone(e.target.value)
+            }}></input>
+            <textarea placeholder='What happened?' onChange={(e) => {
+                setDescription(e.target.value);
+            }}></textarea>
+            <button className='send-alert' onClick={sendMainAlert}>ALERT NOW!</button>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.851451740415!2d-80.1409627495051!3d25.907253408803125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ad768d6fb88f%3A0x2260d38b31d36d0a!2sKovens%20Conference%20Center!5e0!3m2!1sen!2sus!4v1662844715877!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
   )
 }
